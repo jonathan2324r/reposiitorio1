@@ -1,0 +1,42 @@
+body
+{
+    background-color: black;
+    margin: 1px;
+    font-size: medium;
+}
+
+.ContenedorPrin
+{
+    background-color: brown;
+    margin: 1em;
+    padding: 1em;
+    display: grid;
+}
+
+.bloques{
+    background-color: white;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+@media(min-width:400px){
+    .ContenedorPrin{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(min-width:600px){
+    .ContenedorPrin{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media(min-width:900px){
+
+    .contenedorPrin{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
